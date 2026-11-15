@@ -35,8 +35,8 @@ export function loadHome() {
     imgContainer2.appendChild(orangeCocktailPhoto);
 
     homeDiv.appendChild(tagline);
-    homeDiv.appendChild(introText1);
     homeDiv.appendChild(imgContainer1);
+    homeDiv.appendChild(introText1);    
     homeDiv.appendChild(imgContainer2);
     homeDiv.appendChild(introText2);
     content.appendChild(homeDiv);
