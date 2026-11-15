@@ -57,6 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* End of CSS Reset */
 
+/* Hard coded Landing Page */
 h1 {
     background-color: #ffffff;
     font-family: "Fleur De Leah", cursive;
@@ -86,4 +87,31 @@ body {
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Page Styling */
+
+.home-container {
+    display: flow-root;
+}
+
+.home-container p {
+    margin-bottom: 1rem;
+}
+
+.image-container {
+    width: 220px;
+    float: left;
+    margin: 0.25rem 1.25rem 0.75rem 0;
+}
+
+.image-container:nth-of-type(even) {
+    float: right;
+    margin: 0.25rem 0 0.75rem 1.25rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
 }
