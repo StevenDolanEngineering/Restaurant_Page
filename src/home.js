@@ -10,16 +10,16 @@ export function loadHome() {
     const tagline = document.createElement("h2");
     tagline.classList.add("tagLine");
     tagline.textContent = "Come and give your mind time to wander";
-
-    const introText1 = document.createElement("p");
-    introText1.textContent = "Nestled among the cozy evergreen forests of Washington, Day Dreamers is a place for lovers, loners, and dreamers to share a lovely space to dream freely."
-
+ 
     const imgContainer1 = document.createElement("div");
     imgContainer1.classList.add("image-container");
 
     const dateNightPhoto = document.createElement("img");
     dateNightPhoto.src = dateNight;
     dateNightPhoto.alt = "Two people share time together with coffee and pastries."
+
+    const introText1 = document.createElement("p");
+    introText1.textContent = "Nestled among the cozy evergreen forests of Washington, Day Dreamers is a place for lovers, loners, and dreamers to share a lovely space to dream freely."    
 
     const imgContainer2 = document.createElement("div");
     imgContainer2.classList.add("image-container");
