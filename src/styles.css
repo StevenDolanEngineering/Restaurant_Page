@@ -95,12 +95,19 @@ body {
     display: flow-root;
 }
 
+.home-container h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .home-container p {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 25px;
 }
 
 .image-container {
-    width: 220px;
+    width: 350px;
     float: left;
     margin: 0.25rem 1.25rem 0.75rem 0;
 }
