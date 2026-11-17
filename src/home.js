@@ -31,6 +31,18 @@ export function loadHome() {
     const introText2 = document.createElement("p");
     introText2.textContent = "Complete with table service, coffee, craft cocktails, and pastries, come experience a place where dreams do come true."
 
+    const introText3 = document.createElement("p");
+    const menuLink = document.createElement("a");
+    const specialsLink = document.createElement("a");
+
+    menuLink.textContent = "MENU";
+    menuLink.href = "./menu.js";
+
+    specialsLink.textContent = "SPECIALS";
+    specialsLink.href = "./specials.js";
+
+    introText3.append("Check out our ", menuLink, " and ", specialsLink, ".");
+
     imgContainer1.appendChild(dateNightPhoto);
     imgContainer2.appendChild(orangeCocktailPhoto);
 
@@ -39,5 +51,6 @@ export function loadHome() {
     homeDiv.appendChild(introText1);    
     homeDiv.appendChild(imgContainer2);
     homeDiv.appendChild(introText2);
+    homeDiv.appendChild(introText3);
     content.appendChild(homeDiv);
 };
