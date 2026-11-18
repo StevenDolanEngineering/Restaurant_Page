@@ -15,7 +15,7 @@ export function loadSpecials() {
 
         const specialsText = document.createElement("p");
         specialsText.classList.add("specials-text");
-        itemName.textContent = string;
+        specialsText.textContent = string;
 
         specialsRow.appendChild(specialsText);
         return specialsRow;
@@ -30,10 +30,8 @@ export function loadSpecials() {
         specialsHeading.textContent = sectionName.category;
         section.appendChild(specialsHeading);
 
-        sectionName.items.forEach((special) => {
-            const row = createSpecialsInfo(special.string);
-            section.appendChild(row);
-        });
+        const row = createSpecialsInfo(sectionName.info);
+        section.appendChild(row);
 
         return section;
     }
