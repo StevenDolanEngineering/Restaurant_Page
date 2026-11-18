@@ -150,11 +150,18 @@ body {
     margin-bottom: 1.75rem;
 }
 
+.menu-title {
+    font-family: "Fleur De Leah", cursive;
+    text-align: center;
+    font-size: 4rem;
+}
+
 .menu-section h3 {
     border-bottom: 2px solid #D9534F;
     padding-bottom: 0.25rem;
     margin-bottom: 0.75rem;
     font-family: "Fleur De Leah", cursive;
+    font-size: 3rem;
 }
 
 .menu-item {
@@ -162,6 +169,7 @@ body {
     align-items: baseline;
     gap: 0.5rem;
     margin-bottom: 0.5rem;
+    font-size: 1.5rem;
 }
 
 .item-dots {

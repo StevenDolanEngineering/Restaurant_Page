@@ -6,7 +6,7 @@ export function loadMenu() {
 
     const menuTitle = document.createElement("h2");
     menuTitle.classList.add("menu-title");
-    menuTitle.textContent = "MENU";
+    menuTitle.textContent = "Menu";
 
     function createMenuItem(name, price) {
         
@@ -73,7 +73,7 @@ export function loadMenu() {
         }
     ];
     menuDiv.appendChild(menuTitle);
-    
+
     menuItems.forEach((sectionName) => {
         const section = createMenuSection(sectionName);
         menuDiv.appendChild(section);
