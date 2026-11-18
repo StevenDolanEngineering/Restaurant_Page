@@ -143,3 +143,28 @@ body {
     height: auto;
     border-radius: 6px;
 }
+
+/* Menu Styling */
+
+.menu-section {
+    margin-bottom: 1.75rem;
+}
+
+.menu-section h3 {
+    border-bottom: 2px solid #D9534F;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.75rem;
+    font-family: "Fleur De Leah", cursive;
+}
+
+.menu-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.item-dots {
+    flex: 1;
+    border-bottom: 2px dotted #888;
+}
