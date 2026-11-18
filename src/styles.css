@@ -127,18 +127,18 @@ body {
     font-size: 25px;
 }
 
-.image-container {
+.image-container-home {
     width: 350px;
     float: left;
     margin: 0.25rem 1.25rem 0.75rem 0;
 }
 
-.image-container:nth-of-type(even) {
+.image-container-home:nth-of-type(even) {
     float: right;
     margin: 0.25rem 0 0.75rem 1.25rem;
 }
 
-.image-container img {
+.image-container-home img {
     width: 100%;
     height: auto;
     border-radius: 6px;
@@ -205,4 +205,38 @@ body {
     gap: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
+}
+
+/* About Page Styling */
+
+.about-container {
+    display: flow-root;
+}
+
+.about-container h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-container p {
+    margin-bottom: 2rem;
+    font-size: 25px;
+}
+
+.image-container-about {
+    width: 350px;
+    float: left;
+    margin: 0.25rem 1.25rem 0.75rem 0;
+}
+
+.image-container-about:nth-of-type(even) {
+    float: right;
+    margin: 0.25rem 0 0.75rem 1.25rem;
+}
+
+.image-container-about img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
 }

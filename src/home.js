@@ -12,7 +12,7 @@ export function loadHome() {
     tagline.textContent = "Come and give your mind time to wander";
  
     const imgContainer1 = document.createElement("div");
-    imgContainer1.classList.add("image-container");
+    imgContainer1.classList.add("image-container-home");
 
     const dateNightPhoto = document.createElement("img");
     dateNightPhoto.src = dateNight;
@@ -22,7 +22,7 @@ export function loadHome() {
     introText1.textContent = "Nestled among the cozy evergreen forests of Washington, Day Dreamers is a place for lovers, loners, and dreamers to share a lovely space to dream freely."    
 
     const imgContainer2 = document.createElement("div");
-    imgContainer2.classList.add("image-container");
+    imgContainer2.classList.add("image-container-home");
 
     const orangeCocktailPhoto = document.createElement("img");
     orangeCocktailPhoto.src = orangeCocktail;

@@ -12,7 +12,7 @@ export function loadAbout() {
     aboutTitle.textContent = "About Day Dreamers";
 
     const imgContainer1 = document.createElement("div");
-    imgContainer1.classList.add("image-container");
+    imgContainer1.classList.add("image-container-about");
 
     const mousseParfaitPhoto = document.createElement("img");
     mousseParfaitPhoto.src = mousseParfait;
@@ -22,7 +22,7 @@ export function loadAbout() {
     aboutText1.textContent = "Day Dreamers started as a day dream of our founder, Steven Dolan, as a cozy nighttime escape where people could come for pleasant company and a place to get away after dinner that wasn't a dive bar. From his visit to Little Italy in New York City, he was deeply inspired by the simpicity of a late night cafe that only offered coffee and pastries with table service.";
 
     const imgContainer2 = document.createElement("div");
-    imgContainer2.classList.add("image-container");
+    imgContainer2.classList.add("image-container-about");
 
     const greenCocktailPhoto = document.createElement("img");
     greenCocktailPhoto.src = greenCocktail;
