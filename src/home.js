@@ -1,5 +1,7 @@
 import dateNight from "./assets/date-night.jpg";
 import orangeCocktail from "./assets/orange-cocktail.jpg";
+import { loadMenu } from "./menu.js";
+import { loadSpecials } from "./specials.js";
 
 export function loadHome() {
     const content = document.querySelector("#content");
@@ -36,10 +38,20 @@ export function loadHome() {
     const specialsLink = document.createElement("a");
 
     menuLink.textContent = "MENU";
-    menuLink.href = "./menu.js";
+    menuLink.href = "#";
+    menuLink.addEventListener("click", (event) => {
+        event.preventDefault();
+        content.textContent = "";
+        loadMenu();
+    });
 
     specialsLink.textContent = "SPECIALS";
-    specialsLink.href = "./specials.js";
+    specialsLink.href = "#";
+    specialsLink.addEventListener("click", (event) => {
+        event.preventDefault();
+        content.textContent = "";
+        loadSpecials();
+    })
 
     introText3.append("Check out our ", menuLink, " and ", specialsLink, ".");
 
